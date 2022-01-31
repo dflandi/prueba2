@@ -1,0 +1,15 @@
+ul {
+    list-style: none;  
+    background-color: rgb(207, 118, 245);
+}
+
+li { 
+    background: rgb(120, 132, 243);
+    display: inline-block;
+    margin: 40px;
+
+}
+
+.navlink { 
+    text-decoration: none;
+}
