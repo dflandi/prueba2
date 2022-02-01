@@ -51,7 +51,7 @@ function AlumnoPage() {
   }
 
  
-  onChange(() => {
+  useEffect(() => {
     getListAlumno().then(data => {
       setNiños(data);
     }
@@ -60,7 +60,7 @@ function AlumnoPage() {
 
   return (
     <div>
-      <h2>Lista de Niñoa</h2>
+      <h2>Lista de Niños</h2>
       <Link to='/createalumno'>
           Crear      
       </Link>
